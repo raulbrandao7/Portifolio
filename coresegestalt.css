@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #6f00ff, #00c3ff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-container h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.voltar-btn {
+  background-color: white;
+  color: #6f00ff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.voltar-btn:hover {
+  background-color: #f0f0f0;
+  color: #6f00ff;
+}
+
+.content {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.descricao p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.8rem;
+  color: #6f00ff;
+}
+
+.project-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.project-section img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.legenda {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #999;
+}
